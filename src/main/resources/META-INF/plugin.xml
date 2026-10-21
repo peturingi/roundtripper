@@ -1,0 +1,42 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>dk.ingi.roundtripper</id>
+
+    <!-- Public plugin name should be written in Title Case.
+     Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
+    <name>Roundtripper</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor>INGI Consulting Aps</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+    <description><![CDATA[
+        Pipe editor selections through external executables and get the result back in place.<br>
+        Configure executables under <em>Settings | Tools | Roundtripper</em>, then run them from the
+        <em>Roundtripper</em> sub-menu of the editor context menu.
+        ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <resource-bundle>messages.RoundtripperBundle</resource-bundle>
+
+    <!-- Extensions defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationConfigurable parentId="tools"
+                                 id="dk.ingi.roundtripper.settings"
+                                 instance="dk.ingi.roundtripper.RoundtripperConfigurable"
+                                 key="settings.displayName"/>
+        <notificationGroup id="Roundtripper" displayType="BALLOON" key="notification.title"/>
+    </extensions>
+
+    <actions>
+        <group id="Roundtripper" class="dk.ingi.roundtripper.RoundtripperActionGroup" popup="true">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </group>
+    </actions>
+</idea-plugin>

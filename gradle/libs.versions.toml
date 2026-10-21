@@ -1,0 +1,10 @@
+[versions]
+junitVersion = "6.1.3"
+junit4Version = "4.13.2"
+
+[libraries]
+junit = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junitVersion" }
+junitEngine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junitVersion" }
+junitLauncher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junitVersion" }
+# Required at runtime by the IntelliJ Platform test framework, even for JUnit Jupiter tests.
+junit4 = { module = "junit:junit", version.ref = "junit4Version" }

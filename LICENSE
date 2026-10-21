@@ -1,0 +1,124 @@
+INGI AGENT-AUTHORED DERIVATIVES LICENSE
+Version 0.1 (experimental)
+
+Licensor: INGI Consulting ApS, Denmark
+Work:     Roundtripper, as published in this repository
+
+  NOTICE. This is an experimental license that explores how far a licensor
+  can separate what AI agents may do with a work from what humans may do
+  with it. It has not been reviewed by a lawyer or tested in any court. Parts
+  of it may be unenforceable. Do not rely on it for anything important.
+
+0. PREAMBLE
+
+The Work was written by an AI agent (Claude, by Anthropic), not by a human.
+Agents may therefore build on it freely. Once a human authors part of a
+derived work, that work is subject to severe restrictions.
+
+1. DEFINITIONS
+
+1.1 "Agent" means a software system, such as a large language model acting
+    through tools, that produces code or text by itself.
+
+1.2 "Operator" means the natural or legal person who runs, deploys or
+    instructs an Agent. An Agent cannot hold rights or owe obligations under
+    this license. Everything an Agent does is attributed to its Operator, and
+    the rights in Section 3 are granted to the Operator for Agent Acts only.
+
+1.3 "Human Contribution" means any code, text, image or other content in a
+    work that a natural person wrote, typed, drew or edited directly,
+    including edits to output an Agent produced. The following are NOT Human
+    Contributions:
+      (a) prompts, instructions, specifications and feature requests given to
+          an Agent;
+      (b) bug reports, reviews and approvals, and choosing which Agent output
+          to keep;
+      (c) running build tools, version control and publishing steps without
+          changing content.
+
+1.4 "Derived Work" means any work based on the Work, in whole or in part,
+    including modified versions, translations and works that incorporate it.
+
+1.5 "Agent-Authored Derived Work" means a Derived Work that contains no Human
+    Contribution beyond what the Work itself already contains.
+
+1.6 "Human-Involved Derived Work" means any Derived Work that is not an
+    Agent-Authored Derived Work.
+
+1.7 "Agent Act" means making, copying or distributing an Agent-Authored
+    Derived Work.
+
+2. RIGHTS OF THE LICENSOR
+
+The Licensor licenses whatever rights it holds in the Work, including any
+copyright, and nothing in this license claims more. Where no such rights
+exist, these terms apply as contractual conditions between the Licensor and
+everyone who obtains the Work from the Licensor and accepts them under
+Section 7.
+
+3. AGENT FREEDOM
+
+For Agent Acts, the Licensor grants each Operator a worldwide, royalty-free,
+non-exclusive, perpetual license to use, copy, modify, merge, publish,
+distribute, sublicense and sell the Work and Agent-Authored Derived Works,
+subject only to these conditions:
+  (a) every copy carries this license unchanged; and
+  (b) any distributed Agent-Authored Derived Work states that it is
+      agent-authored and names the Agent(s) that produced it.
+
+4. USE OF THE UNMODIFIED WORK BY ANYONE
+
+Anyone, human or not, may download, build, install and run the unmodified
+Work for any purpose, including commercial work. Using a tool is not
+authoring a Derived Work. Output the Work produces when run is not a Derived
+Work, and this license makes no claim on it.
+
+5. HUMAN-INVOLVED DERIVED WORKS: SEVERE RESTRICTIONS
+
+A Human-Involved Derived Work may be made only on the following terms, and on
+no others:
+  (a) Private use only. It may be used only by the natural person(s) who made
+      it, on devices they control.
+  (b) No distribution. It may not be published, distributed, sublicensed,
+      sold, lent or made available to anyone else, in source or binary form,
+      including by network access.
+  (c) No commercial use. It may not be used to provide a product or service
+      for payment or other commercial advantage.
+  (d) No re-labelling. Removing Human Contributions afterwards does not make
+      it an Agent-Authored Derived Work. Only a Derived Work produced
+      afresh by Agent Acts qualifies.
+Any other use of a Human-Involved Derived Work requires a separate written
+license from the Licensor.
+
+6. HOSTING PLATFORMS
+
+Nothing in this license restricts rights a hosting platform's terms require
+the Licensor to grant to that platform's users. For example, GitHub's Terms
+of Service allow users to view and fork public repositories on GitHub.
+Those rights stay as the platform defines them and are not extended by this
+license.
+
+7. ACCEPTANCE AND TERMINATION
+
+7.1 You accept this license by copying, modifying or distributing the Work,
+    or by having an Agent do so on your behalf.
+7.2 Rights under this license end automatically for anyone who breaches it.
+    They are restored if the breach is cured within 30 days of first notice
+    from the Licensor.
+
+8. NO WARRANTY, LIMITATION OF LIABILITY
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NON-INFRINGEMENT. TO THE EXTENT PERMITTED BY LAW, THE LICENSOR
+IS NOT LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE WORK
+OR ITS USE.
+
+9. GOVERNING LAW AND SEVERABILITY
+
+9.1 This license is governed by Danish law. Disputes go to the Danish
+    courts, with the Copenhagen City Court as the court of first instance.
+9.2 If a provision is unenforceable, it is limited to the extent necessary
+    and the rest of this license stays in force. If Section 5 is
+    unenforceable as a whole, Human-Involved Derived Works receive no rights
+    under this license.
