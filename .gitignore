@@ -3,3 +3,6 @@
 .intellijPlatform
 build
 *.iml
+
+# macOS
+.DS_Store
